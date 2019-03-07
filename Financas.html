@@ -1,0 +1,102 @@
+<html>
+
+<head>
+    <title>Controle Financeiro</title>
+</head>
+
+<body>
+    <div="cabecalho">
+        <h1 align="middle">Controle Pessoal Financeiro</h1>
+    </div>
+
+        <div="corpo">
+
+            <h2>Registros</h2>
+
+            <table cellpadding="15" cellspacing="3">
+                <thead bgcolor="#eee">
+                    <tr>
+                        <th>Descrição</th>
+                        <th>Categoria</th>
+                        <th>Data</th>
+                        <th>Valor</th>
+                        <th>Saldo</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Crédito Salário</td>
+                        <td>Crédito</td>
+                        <td>05/10/2017</td>
+                        <td>1500,00</td>
+                        <td>1500,00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Pãozinho</td>
+                        <td>Dédito</td>
+                        <td>06/10/2017</td>
+                        <td>-7,50</td>
+                        <td>1492,50</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Conta de Luz</td>
+                        <td>Dédito</td>
+                        <td>08/10/2017</td>
+                        <td>-102,90</td>
+                        <td>1389,60</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Freela</td>
+                        <td>Crédito</td>
+                        <td>08/10/2017</td>
+                        <td>750,00</td>
+                        <td>2139,60</td>
+                    </tr>
+
+                    <tr>
+                        <td>Cartão Crédito</td>
+                        <td>Dédito</td>
+                        <td>10/10/2017</td>
+                        <td>-2900,00</td>
+                        <td bgcolor="red">-760,40</td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+
+            <h2>Adicionar nova receita</h2>
+
+            <label for="descricao">Descrição:
+                <p>
+                    <input type="text" name="descricao" id="descricao" size="70" placeholder="Digite o nome da sua receita" />
+                </p>
+            </label>
+
+            <p>
+                <label for="categoria">Categoria:
+                    <p><input type="text" name="categoria" id="categoria" size="40" placeholder="Digite a categoria da sua receita"/></p>
+                </label>
+
+                <label for="data">Data:
+                    <p><input type="text" name="data" id="data" size="40" placeholder="Digite a data da sua receita"/></p>
+                </label>
+
+                <label for="valor">Valor: R$
+                    <p><input type="text" name="valor" id="valor" size="40" placeholder="Digite o valor da sua receita"/></p>
+                </label>
+            </p>
+
+            <button id="btnAdicionar" Adicionar receita>Adicionar</button>
+        </div>
+
+
+</body>
+
+</html>
